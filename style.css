@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html,body{
+    height: 100%;
+    background-color: #120D18;
+}
+
+.container{
+    width: 100%;
+    max-width: 550px;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px 4%;
+    color: #ECE7F2;
+}
+
+.container h1{
+    text-align: center;
+    color: #7d5ba6;
+    padding-bottom: 30px;
+}
+
+.jogada{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.jogada .btn-jogada{
+    padding: 10px 13px;
+    border: none;
+    border-radius: 50%;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: #ccc;
+    transition: 0.3s;
+    color: #120D18;
+}
+
+.jogada .btn-jogada:hover{
+    background-color: #999;
+}
+
+.jogada .btn-jogada:active{
+    background-color: #7d5ba6;
+}
+
+.text{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 0;
+    font-size: 18px;
+}
+
+.res{
+    width: 50%;
+    line-height: 25px;
+}
+
+.res b{
+    color: #7d5ba6;
+    text-transform: uppercase;
+}
+
+.placar{
+    width: 50%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    line-height: 30px;
+    padding: 0 10px;
+}
+
+
+.placar-single{
+    text-align: center;
+}
+
+.placar-single:last-child{
+    width: 100%;
+    padding: 20px 0;
+}
+
+.placar-single button{
+    background: #7d5ba6;
+    border: none;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #ECE7F2;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 480px) {
+    .res{
+        width: 100%;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+  
+    .placar{
+      width: 100%;
+    }
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Kevin Freire">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+<body>
+    <div class="container">
+        <h1>Jokenpô</h1>
+        <div class="jogada">
+          <button class="btn-jogada" onclick="optJog('pedra')"><i class="fa-solid fa-hand-back-fist"></i></button>
+          <button class="btn-jogada" onclick="optJog('papel')"><i class="fa-solid fa-hand"></i></button>
+          <button class="btn-jogada" onclick="optJog('tesoura')"><i class="fa-solid fa-hand-scissors"></i></button>
+        </div>
+        <div class="text">
+            <div class="res">
+                <span id="jog"></span>
+                <br>
+                <span id="pc"></span>
+                <br>
+                <span id="resultado"></span>
+            </div>
+            <div class="placar">
+                <div class="placar-single">
+                    <p class="jogador">Jogador</p>
+                    <p id="jogadorCount" class="jpl">0</p>
+                </div>
+                <div class="placar-single">
+                    <p class="jogador">Empate</p>
+                    <p id="empateCount" class="jpl">0</p>
+                </div>
+                <div class="placar-single">
+                     <p class="jogador">Pc</p>
+                     <p id="pcCount" class="jpl">0</p>
+                </div>
+                <div class="placar-single">
+                     <button onclick="zerarPlacar()">Zerar placar</button>    
+                </div>
+              
+            </div>
+        </div>      
+    </div>
+
+<script src="https://kit.fontawesome.com/169263c84a.js" crossorigin="anonymous"></script>
+<script src="main.js"></script>
+</body>
+</html>
+
+<script src="https://code.jquery.com/jquery-3.7.0.min.js
+"></script>
+<script src="https://kit.fontawesome.com/169263c84a.js" crossorigin="anonymous"></script>
+<script src="main.js"></script>
+</body>
+</html>
